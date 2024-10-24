@@ -1,0 +1,71 @@
+body {
+    background-color: rgb(41, 98, 241);
+}
+
+#title{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:10%;
+}
+
+#logo{
+    width: 345.5px;
+    height: 70px;
+}
+
+#stage{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div.current_performace{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+table {
+    border: 1px solid;
+    text-align: center;
+    margin: 20px auto;
+    border: 1;
+    border-style: dashed;
+    border-color: black;
+    border-width: 5px;
+    padding: 1.5%;
+    width: 75%;
+    background-color: gray;
+}
+
+#table_title{
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: center;
+    align-items: center;
+}
+
+.headers {
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color: yellow;
+}
+
+td {
+    font-family: 'Courier New', Courier, monospace;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+#Dance_Button{
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+}
