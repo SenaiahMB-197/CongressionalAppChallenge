@@ -2,7 +2,53 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#nav-logo{
+    width: 172.75px;
+    height: 35px;
+}
+
+body{
+    background-color: rgb(41, 98, 241);
+    height: 100vh;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+header .navbar {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.navbar .nav-links {
+    display: flex;
+    gap: 40px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    transition: 0.2s ease;
+
+}
+
+.navbar a:hover {
+    color: rgba(255,215,0,255);
 }
 
 .center {
@@ -12,9 +58,8 @@
     width:10%;
 }
 
-#logo{
-    width: 345.5px;
-    height: 70px;
+.wrapper h1 {
+    color: rgba(255,215,0,255);
 }
 
 body{
@@ -92,6 +137,7 @@ body{
 }
 
 .wrapper .btn {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 100%;
     height: 45px;
     background-color: white;
@@ -103,6 +149,11 @@ body{
     font-size: 16px;
     color: black;
     font-weight: 600;
+    transition: 0.2s ease;
+}
+
+.wrapper .btn:hover {
+    background: rgba(255,215,0,255);
 }
 
 .wrapper .register-link {
